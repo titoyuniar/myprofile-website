@@ -51,8 +51,8 @@ function WebsiteSederhana (){
                         <h1 className={styles.h1}>Tito Yuniar</h1>
                     </div>
                     <div className={styles.ulli}>
-                        {/* <a href="#">28 years</a>
-                        <a href="#">Livv</a> */}
+                        <a href="#">19 tahun</a>
+                        {/* <a href="#">Livv</a> */}
                         <a href="#">Freelance</a>
                     </div>
                     <div>
@@ -70,7 +70,7 @@ function WebsiteSederhana (){
                             </div>
                             <div className={styles.dibawah1}>
                             <Image src={imgdatabase} height="30px" width="30px" margin-right="15px"></Image>
-                                <h3 className={styles.h2seo} >data base</h3>
+                                <h3 className={styles.h2seo} >fast respon</h3>
                                 <p className={styles.p}>data menjadikan fast respon sesuai yang di inginkan</p>
                             </div>
                         </div>
@@ -82,8 +82,8 @@ function WebsiteSederhana (){
                             </div>
                             <div className={styles.dibawah2}>
                                 <Image src={imgsecurity} height="30px" width="30px" margin-right="15px"></Image>
-                                <h3 className={styles.h2seo}>data pemanganan</h3>
-                                <p className={styles.p}>mengamankan data rahasia perusahaan dari cliant</p>
+                                <h3 className={styles.h2seo}>data pengamanan</h3>
+                                <p className={styles.p}>mengamankan semua data rahasia perusahaan dari client</p>
                             </div>
     
                         </div>
