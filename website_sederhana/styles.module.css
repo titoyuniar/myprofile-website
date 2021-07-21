@@ -1,13 +1,10 @@
-/* .container {
-
-} */
 .kiri {
     width: 3%;
     background-color: #292929;
     border: rgb(0, 0, 0) 1px solid;
     float: left;
     text-align: center;
-    height: 100vh;
+    height: 105vh;
     box-sizing: border-box;
 }
 .kiriatas {
@@ -28,7 +25,7 @@
     display: block;
 }
 .tengah {
-    height: 100vh;
+    height: 105vh;
     box-sizing: border-box;
     float: left;
     width: 32%;
@@ -41,7 +38,7 @@
     width: 65%;
     box-sizing: border-box;
     background-color: #292929;
-    height: 100vh;
+    height: 105vh;
 }
 .kanandiv {
     width: 95%;
@@ -83,7 +80,6 @@
     color: rgb(255, 255, 255);
     font-size: 50px;
     margin: 5px 0px 15px 0px;
-
 }
 .h2 {
     color: white;
@@ -166,12 +162,11 @@
         float: left;
         width: 90%;
         align-items: center;
-        height: 150vh ;
+        height: 155vh ;
     }
-
     .kiri {
         width: 10%;
-        height: 200vh;
+        height: 205vh;
     }
 }
 
@@ -182,7 +177,6 @@
         align-items: center;
         height: 189vh ;
     }
-
     .kiri {
         width: 10%;
         height: 239vh;
@@ -191,7 +185,7 @@
 
 @media (min-width:540px) and (max-width:550px) {
     .tengah {
-        width: 90%;
+        width: 32%;
 
     }
     .kanan {
@@ -203,7 +197,26 @@
 
     .kiri {
         width: 10%;
-        height: 230vh;
+        height: 235vh;
     }
 }
 
+
+@media (min-width:950px) and (max-width:1000px) {
+    .tengah {
+        width: 32%;
+        height: 155vh;
+
+    }
+    .kanan {
+        float: left;
+        width: 65%;
+        align-items: center;
+        height: 155vh;
+    }
+
+    .kiri {
+        width: 3%;
+        height: 155vh;
+    }
+}
