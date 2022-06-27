@@ -1,222 +1,229 @@
 .kiri {
-    width: 3%;
-    background-color: #292929;
-    border: rgb(0, 0, 0) 1px solid;
-    float: left;
-    text-align: center;
-    height: 105vh;
-    box-sizing: border-box;
+  width: 3%;
+  background-color: #292929;
+  border: rgb(0, 0, 0) 1px solid;
+  float: left;
+  text-align: center;
+  height: 105vh;
+  box-sizing: border-box;
 }
 .kiriatas {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .kiritengahtengah {
-    margin-top: 165px;
-    box-sizing: border-box;
+  margin-top: 165px;
+  box-sizing: border-box;
 }
 .kiritengahimg {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .kiribawah {
-    margin-top: 236px;
-    box-sizing: border-box;
+  margin-top: 236px;
+  box-sizing: border-box;
 }
 .kiritengahimg {
-    display: block;
+  display: block;
 }
 .tengah {
-    height: 105vh;
-    box-sizing: border-box;
-    float: left;
-    width: 32%;
-    background-image: url(./ikon/myprofil.jpg);
-    background-size: cover;
-    background-position: center;
+  height: 100vh;
+  box-sizing: border-box;
+  float: left;
+  width: 32%;
+  background-image: url(./ikon/my-foto.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .kanan {
-    float: left;
-    width: 65%;
-    box-sizing: border-box;
-    background-color: #292929;
-    height: 105vh;
+  float: left;
+  width: 65%;
+  box-sizing: border-box;
+  background-color: #292929;
+  height: 100vh;
 }
 .kanandiv {
-    width: 95%;
-    margin: auto;
-    box-sizing: border-box;
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
 }
 .ulli {
-    display: inline;
+  display: inline;
 }
 .ulli a {
-    padding: 0px 10px ;
-    
-    color: rgb(16, 255, 28)  ;
-    border-right: 1px solid rgb(67, 64, 64) ;
-    font-style: italic;
+  padding: 0px 10px;
+
+  color: rgb(16, 255, 28);
+  border-right: 1px solid rgb(67, 64, 64);
+  font-style: italic;
 }
 .ulli a:hover {
-    color: rgb(200, 255, 3) ;
+  color: rgb(200, 255, 3);
 }
 .p {
-    color: rgb(226, 226, 226);
-    font-family: unset;
+  color: rgb(226, 226, 226);
+  font-family: unset;
 }
 .dikananbawah {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .dikiri {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .dikanan {
-    box-sizing: border-box;
-    width: 50%;
-    float: right;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
 }
 .h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    margin: 5px 0px 15px 0px;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  text-align: center;
+  /* font-size: 50px; */
+  /* margin: 5px 0px 15px 0px; */
 }
 .h2 {
-    color: white;
+  color: white;
 }
 .h2seo {
-    color: white;
+  color: white;
 }
 .h3 {
-    color: #fff;
+  color: #fff;
 }
 .dibawah1 {
-    margin-top: 30px;
-    float: none;
-    width: 100%;
+  margin-top: 30px;
+  float: none;
+  width: 100%;
 }
 .diatas1 {
-    margin-bottom: 40px;
+  margin-bottom: 70px;
+}
+.diatas1:hover {
+  cursor: pointer;
+  /* color: rgb(211, 211, 46); */
+  /* background-color: rgba(117, 117, 117, 0.288); */
+  /* border: 1px solid rgba(87, 114, 87, 0.363); */
+  /* padding: 15px; */
+  /* box-sizing: border-box; */
 }
 .diatas2 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-@media (min-width:250px) and (max-width:500px) {
-    .kiri {
-        width: 10%;
-        height: 195vh;
-    }
-    .kiribawah {
-        margin-top: 165px;
-    }
-    .tengah {
-        float: left;
-        width: 90%;
-        height: 50vh;
-        background-position-y: 18%;
-        background-size: cover;
-    }
-    .kanan {
-        float: left;
-        width: 90%;
-        align-items: center;
-        height: 145vh ;
-    }
-    .kanandiv {
-        width: 90%;
-    }
-    .diatas1 {
-        margin-bottom: 0;
-        height: 200px ;
-        box-sizing: border-box;
-    }
-    .diatas2 {
-        margin-bottom: 0;
-        height: 225px;
-        margin-top: 3px;
-        box-sizing: border-box;
-    }
-    .h2 {
-        font-size: 20px;
-        text-align: center;
-    }
-    .h2seo {
-        font-size: 17px;
-        margin-bottom: 0px;
-    }
-    .dibawah2 {
-        overflow: auto;
-    }
-    .h1 {
-        font-size: 36px;
-        margin-left: 60px ;
-    }
-    .ulli {
-        margin: auto;
-    }
+@media (min-width: 250px) and (max-width: 500px) {
+  .kiri {
+    width: 10%;
+    height: 195vh;
+  }
+  .kiribawah {
+    margin-top: 165px;
+  }
+  .tengah {
+    float: left;
+    width: 90%;
+    height: 50vh;
+    background-position-y: 18%;
+    background-size: cover;
+  }
+  .kanan {
+    float: left;
+    width: 90%;
+    align-items: center;
+    height: 145vh;
+  }
+  .kanandiv {
+    width: 90%;
+  }
+  .diatas1 {
+    margin-bottom: 0;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .diatas2 {
+    margin-bottom: 0;
+    height: 225px;
+    margin-top: 3px;
+    box-sizing: border-box;
+  }
+  .h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .h2seo {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .dibawah2 {
+    overflow: auto;
+  }
+  .h1 {
+    font-size: 36px;
+    margin-left: 60px;
+  }
+  .ulli {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 360px) {
-    .kanan {
-        float: left;
-        width: 90%;
-        align-items: center;
-        height: 155vh ;
-    }
-    .kiri {
-        width: 10%;
-        height: 205vh;
-    }
+  .kanan {
+    float: left;
+    width: 90%;
+    align-items: center;
+    height: 155vh;
+  }
+  .kiri {
+    width: 10%;
+    height: 205vh;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .kanan {
-        float: left;
-        width: 90%;
-        align-items: center;
-        height: 189vh ;
-    }
-    .kiri {
-        width: 10%;
-        height: 239vh;
-    }
+  .kanan {
+    float: left;
+    width: 90%;
+    align-items: center;
+    height: 189vh;
+  }
+  .kiri {
+    width: 10%;
+    height: 239vh;
+  }
 }
 
-@media (min-width:540px) and (max-width:550px) {
-    .tengah {
-        width: 32%;
+@media (min-width: 540px) and (max-width: 550px) {
+  .tengah {
+    width: 32%;
+  }
+  .kanan {
+    float: left;
+    width: 90%;
+    align-items: center;
+    height: 130vh;
+  }
 
-    }
-    .kanan {
-        float: left;
-        width: 90%;
-        align-items: center;
-        height: 130vh ;
-    }
-
-    .kiri {
-        width: 10%;
-        height: 235vh;
-    }
+  .kiri {
+    width: 10%;
+    height: 235vh;
+  }
 }
 
+@media (min-width: 950px) and (max-width: 1000px) {
+  .tengah {
+    width: 32%;
+    height: 155vh;
+  }
+  .kanan {
+    float: left;
+    width: 65%;
+    align-items: center;
+    height: 155vh;
+  }
 
-@media (min-width:950px) and (max-width:1000px) {
-    .tengah {
-        width: 32%;
-        height: 155vh;
-
-    }
-    .kanan {
-        float: left;
-        width: 65%;
-        align-items: center;
-        height: 155vh;
-    }
-
-    .kiri {
-        width: 3%;
-        height: 155vh;
-    }
+  .kiri {
+    width: 3%;
+    height: 155vh;
+  }
 }
