@@ -73,7 +73,7 @@ function WebsiteSederhana() {
                     width="30px"
                     margin-right="15px"
                   ></Image>
-                  <h3 className={styles.h3}>Profile</h3>
+                  <h3 className={styles.h2seo}>Profile</h3>
                   <p className={styles.p}>
                     Profile Klik <i className="text-danger">Here</i>
                   </p>
